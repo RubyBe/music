@@ -4,23 +4,36 @@
 
 ## Description/Specifications
 
-###### An application which...
+##### An application which allows management of a Music Store specializing in CD sales
 
-  * As a user...
-  * As a user...
-  * As a user...
+##### User Scenarios
+* As the owner of this CD store, I want to display each album that is for sale with its name, artist, price and genre.
+* I would like to be able to display only the albums belonging to a particular genre.
+* I would also like to display only the albums belonging to a particular artist.
+* I would like my users to be able to click a checkbox on each album to either add or remove the item to the shopping cart area of the page.
+* I would like my shopping cart to display the total price of all the albums I have decided to buy.
+
+###### Component Tree
+| Component     | Description          | File | Properties/Methods |
+| ------------- |-------------| ----- | -----|
+|Main| A class that manages bootstrapping the application | main.ts | tbd |
+|AppComponent| Top level parent component | app.component.ts | tbd |
+|AlbumComponent| A class that manages CDs | album.component.ts | tbd |
+|AlbumListComponent| A class that manages listing all CDs | album-new.component.ts | tbd |
+|AlbumNewComponent| A class that manages adding a new CDs | album-new.component.ts | tbd |
+|AlbumEditComponent| A class that manages editing an existing CDs | album-edit.component.ts | tbd |
 
 #### Use this program
 Clone this repository.
 
-_*Part 1. Prepare the database.*_
-The root folder of this project contains...
-* Step 1
-* Step 2
+Part 1. Clone this repository.
 
-_*Part 2. Run server and access the web app.*_
-Prepare your machine by following the [instructions here.](https://www.learnhowtoprogram.com/c/getting-started-with-c/installing-c)
-To start the local server...
+Part 2. Run server and access the web app.*_
+Prepare your machine by following the [instructions here.](https://www.learnhowtoprogram.com/javascript/getting-started-with-javascript-2f9a73dc-b7f5-4a22-9101-e69d49f552ac/javascript-installation-and-setup-homework)
+To start the local server:
+* run npm install
+* run npm start
+Local server will automatically launch browser window
 
 #### Known Bugs / Unimplemented Features
 TBD
