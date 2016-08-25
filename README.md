@@ -1,4 +1,4 @@
-# _Application Name_
+# _Music Store_
 
 #### By _**Sid Benavente**_
 
