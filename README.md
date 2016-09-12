@@ -32,8 +32,7 @@ Part 2. Run server and access the web app.*_
 Prepare your machine by following the [instructions here.](https://www.learnhowtoprogram.com/javascript/getting-started-with-javascript-2f9a73dc-b7f5-4a22-9101-e69d49f552ac/javascript-installation-and-setup-homework)
 To start the local server:
 * run npm install
-* run gulp serve
-** Local server will automatically launch browser window
+* run gulp serve and local server will automatically launch browser window
 
 #### Known Bugs / Unimplemented Features
 TBD
